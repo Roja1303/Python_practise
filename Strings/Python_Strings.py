@@ -13,6 +13,7 @@ if __name__ == '__main__':
     print(a.replace("d", "ds"))
     print(a.split())
     print(f"The value of a is:  {a}")
+    print(f"The value of {3+4} is equal to {3+4}")
 
 
 
