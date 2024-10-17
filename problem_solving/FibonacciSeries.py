@@ -4,7 +4,7 @@ n1 = 0
 n2 = 1
 
 if num <= 0:
-    print("Please enter a apositive integer")
+    print("Please enter a a positive integer")
 elif num == 1:
     print(f" Fibonacci series ; {n}")
 else:
