@@ -76,8 +76,8 @@ if __name__ == '__main__':
     #9
     c = int(input("Enter the number: "))
 
-    for g in range(c, 0, -1):
-        print(" "*(c-g),end = "")
+    for t in range(c, 0, -1):
+        print(" "*(c-t),end = "")
         for h in range(1, g + 1):
             print("*", end="")
         print()

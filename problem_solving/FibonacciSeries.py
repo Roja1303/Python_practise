@@ -1,15 +1,15 @@
-num = int(input("Enter the number: "))
+nums = int(input("Enter the number: "))
 
 n1 = 0
 n2 = 1
 
-if num <= 0:
-    print("Please enter a a positive integer")
-elif num == 1:
-    print(f" Fibonacci series ; {n}")
+if nums <= 0:
+    print("Please enter a positive integer")
+elif nums == 1:
+    print(f"Fibonacci series: {n1}")
 else:
-    for i in range(num):
-        print(n1,end=" ")
-        n = n1+n2
+    for i in range(nums):
+        print(n1, end=" ")
+        n = n1 + n2
         n1 = n2
         n2 = n

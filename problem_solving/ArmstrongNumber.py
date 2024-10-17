@@ -1,12 +1,12 @@
-num = int(input("Enter the 3 digit number:"))
+number = int(input("Enter the 3 digit number:"))
 sum = 0
-temp = num
+temp = number
 while temp>0:
     digit = temp%10
     sum += digit**3
     temp//=10
 
-if num == sum:
-    print(f"{num} is an Armstrong")
+if number == sum:
+    print(f"{number} is an Armstrong")
 else:
-    print(f"{num} is not an Armstrong")
+    print(f"{number} is not an Armstrong")
